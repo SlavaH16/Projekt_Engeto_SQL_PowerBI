@@ -8,4 +8,9 @@ První porovnatelné období pro mzdy a ceny, je období roku 2006, kdy pøi prùmìrný
 
 Oproti tomu v posledním porovnatelném období roku 2018, pøi prùmìrných mzdách 32 536 Kè bylo možné koupit 1 342 Kg Konzumního kmínového chleba, pøi prùmìrné cenì 24,24 Kè za 1 kg chleba a 1 642 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 19,82 Kè za litr mléka.
 
-Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006.
+Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006
+
+# 3.
+Ve sledovaném období roky 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Rajská jablka èervená kulatá, ovšem nejedná se o rùst, nýbrž o pokles ceny.
+
+Na základì meziroèního porovnání prùmìrných cen rajèat, za sledované období, došlo k poklesu ceny o 2,75%
