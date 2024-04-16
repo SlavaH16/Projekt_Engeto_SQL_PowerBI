@@ -14,3 +14,9 @@ Lze tedy øíci, e v porovnávanıch obdobích, rostly mzdy rychleji ne ceny, ponìv
 Ve sledovaném období roky 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Rajská jablka èervená kulatá, ovšem nejedná se o rùst, nıbr o pokles ceny.
 
 Na základì meziroèního porovnání prùmìrnıch cen rajèat, za sledované období, došlo k poklesu ceny o 2,75%
+
+# 4.
+V roce 2011 došlo k vıraznìjšímu nárùstu cen oproti nárùstu mezd. Ceny v roce 2011 rostly o 12,07% rychleji ne mzdy.
+
+
+V primární tabulce chybí data s nulovım odvìtvím a takté tabulka neobsahuje data o cenách k nìkterım rokùm, nebo v tìchto letech nebyly ceny potravin pøedmìtem zkoumání.
