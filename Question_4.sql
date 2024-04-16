@@ -1,18 +1,17 @@
 
--- Meziroční nárůsty/poklesy ve sledovaném období 2006-2018, dle druhu potravin --
+
 
 SELECT
 	tmh1.payroll_year,
-	tmh1.food_category,
 	tmh1.avg_price_per_year AS avg_price_first_year,
 	tmh2.avg_price_per_year AS avg_price_next_year,
-	round((tmh2.avg_price_per_year - tmh1.avg_price_per_year)/tmh1.avg_price_per_year),4)*100 AS year_increase
+	tmh1.avg_payroll_per_year AS avg_payroll_first_year,
+	tmh2.avg_payroll_per_year AS avg_payroll_next_year,
+	round((tmh2.avg_price_per_year - tmh1.avg_price_per_year)/tmh1.avg_price_per_year,4) * 100 AS year_price_increase,
+	round((tmh2.avg_payroll_per_year - tmh1.avg_payroll_per_year)/tmh1.avg_payroll_per_year,4) * 100 AS year_payroll_increase
 FROM t_miloslav_houska_project_sql_primary_final tmh1 
 JOIN t_miloslav_houska_project_sql_primary_final tmh2
    		ON tmh1.food_category = tmh2.food_category  
    		AND tmh1.payroll_year = tmh2.payroll_year - 1
-WHERE tmh1.food_category IS NOT NULL 
-GROUP BY tmh1.food_category
-ORDER BY tmh1.payroll_year,tmh1.food_category  ;
-
-
+GROUP BY tmh1.payroll_year
+ORDER BY  tmh1.payroll_year  ;
