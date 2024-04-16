@@ -5,7 +5,7 @@
  * poslední období protaženo do konce dat tedy do roku 2021
  */ 
 
-SELECT 
+SELECT DISTINCT 
    tmh.industry_branch_name,
    round(tmh.avg_payroll_per_year,0) AS 'avg_payroll_2000',
    round(tmh2.avg_payroll_per_year,0) AS 'avg_payroll_2005',
@@ -25,7 +25,8 @@ FROM t_miloslav_houska_project_sql_primary_final tmh
    	JOIN t_miloslav_houska_project_sql_primary_final tmh5
    		ON tmh.industry_branch_name = tmh5.industry_branch_name 
    		AND tmh.payroll_year = tmh5.payroll_year - 21
-WHERE tmh.payroll_year = '2000';
+WHERE tmh.payroll_year = '2000'
+ORDER BY industry_branch_name;
   
 
 -- Výčet meziročních poklesů průměrných mezd v jednotlivých odvětvích --
