@@ -3,9 +3,10 @@
 
 SELECT
 	tmh1.payroll_year,
-	tmh1.avg_price_per_year AS avg_price_first_year,
+	tmh2.payroll_year AS payroll_next_year,
+	tmh1.avg_price_per_year AS avg_price_per_year,
 	tmh2.avg_price_per_year AS avg_price_next_year,
-	tmh1.avg_payroll_per_year AS avg_payroll_first_year,
+	tmh1.avg_payroll_per_year AS avg_payroll_per_year,
 	tmh2.avg_payroll_per_year AS avg_payroll_next_year,
 	round((tmh2.avg_price_per_year - tmh1.avg_price_per_year)/tmh1.avg_price_per_year,4) * 100 AS year_price_increase,
 	round((tmh2.avg_payroll_per_year - tmh1.avg_payroll_per_year)/tmh1.avg_payroll_per_year,4) * 100 AS year_payroll_increase,

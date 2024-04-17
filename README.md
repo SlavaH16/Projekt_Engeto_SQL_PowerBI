@@ -16,7 +16,12 @@ Ve sledovaném období roky 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie 
 Na základì meziroèního porovnání prùmìrnıch cen rajèat, za sledované období, došlo k poklesu ceny o 2,75%
 
 # 4.
-V roce 2011 došlo k vıraznìjšímu nárùstu cen oproti nárùstu mezd. Ceny v roce 2011 rostly o 12,07% rychleji ne mzdy.
+V roce 2012 došlo k vıraznìjšímu nárùstu cen oproti nárùstu mezd. Ceny v roce 2012 narostly o 12,07% více ne mzdy.
+
+
+# 5.
+Z dat je patrná vazba mezi HDP a vıší prùmìrné mzdy. Pøi vıraznìjším nárùstu HDP, dochází i k nárùstu vıše prùmìrnıch mezd a to buï ji v aktuálním roce, jako tomu bylo v letech 2007 a 2017 anebo v roce následujícím, jak tomu bylo v letech 2015 - 2016. Vazba mezi HDP a cenou nebyla detekována.
+
 
 
 V primární tabulce chybí data s nulovım odvìtvím a takté tabulka neobsahuje data o cenách k nìkterım rokùm, nebo v tìchto letech nebyly ceny potravin pøedmìtem zkoumání.
