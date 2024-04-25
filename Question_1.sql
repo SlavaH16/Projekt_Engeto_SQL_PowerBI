@@ -1,8 +1,47 @@
 
+
+-- Výčet meziročních změn průměrných mezd, v jednotlivých odvětvích, rok po roce --
+
+SELECT DISTINCT 
+   tmh.industry_branch_name,
+   tmh.payroll_year,
+   tmh2.payroll_year AS 'payroll_next_year',
+   round(tmh.avg_payroll_per_year,0) AS 'avg_payroll',
+   round(tmh2.avg_payroll_per_year,0) AS 'avg_payroll_next_year',
+   CASE 
+   	WHEN tmh.avg_payroll_per_year < tmh2.avg_payroll_per_year THEN 'up'
+   	ELSE 'down' 
+   END AS y_on_y_comparisons
+ FROM t_miloslav_houska_project_sql_primary_final tmh
+  	JOIN t_miloslav_houska_project_sql_primary_final tmh2
+   		ON tmh.industry_branch_name = tmh2.industry_branch_name 
+   		AND tmh.payroll_year = tmh2.payroll_year - 1
+  ORDER BY industry_branch_name, payroll_year  ;
+
+
+-- Výčet meziročních všech poklesů průměrných mezd v jednotlivých odvětvích, za sledované období --
+
+SELECT DISTINCT 
+   tmh.industry_branch_name,
+   tmh.payroll_year,
+   tmh2.payroll_year AS 'payroll_next_year',
+   round(tmh.avg_payroll_per_year,0) AS 'avg_payroll',
+   round(tmh2.avg_payroll_per_year,0) AS 'avg_payroll_next_year',
+   CASE 
+   	WHEN tmh.avg_payroll_per_year < tmh2.avg_payroll_per_year THEN 'up'
+   	ELSE 'down' 
+   END AS y_on_y_comparisons
+ FROM t_miloslav_houska_project_sql_primary_final tmh
+  	JOIN t_miloslav_houska_project_sql_primary_final tmh2
+   		ON tmh.industry_branch_name = tmh2.industry_branch_name 
+   		AND tmh.payroll_year = tmh2.payroll_year - 1
+ ORDER BY y_on_y_comparisons,industry_branch_name  
+ LIMIT 30;
+
+
 /*
- * Porovnání průměrných mezd, dle jednotlivých období,
- * pro porovnání a přehlednost použit cyklus porovnání mezd po 5-ti letech, 
- * poslední období protaženo do konce dat tedy do roku 2021
+ * Porovnání průměrných mezd, pro porovnání a přehlednost použit cyklus porovnání mezd po 5-ti letech, 
+ * poslední období protaženo do konce dat, tedy do roku 2021
  */ 
 
 SELECT DISTINCT 
@@ -29,21 +68,17 @@ WHERE tmh.payroll_year = '2000'
 ORDER BY industry_branch_name;
   
 
--- Výčet meziročních poklesů průměrných mezd v jednotlivých odvětvích --
 
-SELECT 
-   tmh.industry_branch_name,
-   tmh.payroll_year,
-   tmh2.payroll_year AS 'payroll_next_year',
-   round(tmh.avg_payroll_per_year,0) AS 'avg_payroll',
-   round(tmh2.avg_payroll_per_year,0) AS 'avg_payroll_next_year',
-   CASE 
-   	WHEN tmh.avg_payroll_per_year < tmh2.avg_payroll_per_year THEN 'up'
-   	ELSE 'down' 
-   END AS y_on_y_comparisons
- FROM t_miloslav_houska_project_sql_primary_final tmh
-  	JOIN t_miloslav_houska_project_sql_primary_final tmh2
-   		ON tmh.industry_branch_name = tmh2.industry_branch_name 
-   		AND tmh.payroll_year = tmh2.payroll_year - 1
- ORDER BY y_on_y_comparisons,industry_branch_name  
- LIMIT 30;
+
+
+
+
+
+
+
+
+
+
+
+
+

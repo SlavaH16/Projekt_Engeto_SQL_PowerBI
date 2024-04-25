@@ -18,11 +18,15 @@ CREATE TABLE t_miloslav_houska_project_sql_primary_final AS
     	ON cp.payroll_year = YEAR (cpwc.date_from)
     	LEFT JOIN czechia_gdp cg 
     	ON cp.payroll_year = cg.year
-    WHERE cp.value_type_code = '5958'
+    WHERE cp.value_type_code = '5958' AND calculation_code ='200'
     GROUP BY cp.payroll_year, cpib.name, cpwc.name_category
     ORDER BY cp.payroll_year, cpib.name, cpwc.name_category;
    
- 
    
+ 
+ 
+
+   
+
    
 

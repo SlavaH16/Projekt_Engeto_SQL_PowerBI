@@ -1,7 +1,9 @@
 # Repozirat k projektu
 
 # 1. 
-Mzdy meziroènì rostly v prùbìhu let, pro srovnání pouit prùøez dat v cyklech po 5-ti letech, tedy porovnání prùmìrné mzdy vdy po 5-ti letech. V jednotlivıch obdobích se vyskytl i pokles prùmìrnıch mezd v meziroèním porovnání, pro vıstup z tìchto poklesù definovám podskript, kde je kterı obsahuje náhled na veškeré meziroèní poklesy
+Mzdy meziroènì rostly v prùbìhu let, pro srovnání pouit náhled na zmìny v prùmìrnıch mzdách rok po roce, další náhled poskytuje prùøez dat v cyklech po 5-ti letech, tedy porovnání prùmìrné mzdy vdy po 5-ti letech. 
+
+V jednotlivıch meziroèních srovnání prùmìrnıch mezd se vyskytl i pokles prùmìrnıch mezd, pro vıstup z tìchto poklesù definovám podskript, kterı obsahuje náhled na meziroèní poklesy v rámci sledovanıch období
 
 # 2.
 První porovnatelné období pro mzdy a ceny, je období roku 2006, kdy pøi prùmìrnıch roèních mzdách 20 754 Kè, bylo moné koupit 1 287 Kg Konzumního kmínového chleba pøi prùmìrné cenì 16,12 Kè za 1 kg chleba a 1 437 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 14,44 Kè za litr mléka. 
@@ -22,6 +24,8 @@ V roce 2012 došlo k vıraznìjšímu nárùstu cen oproti nárùstu mezd. Ceny v roce 20
 # 5.
 Z dat je patrná vazba mezi HDP a vıší prùmìrné mzdy. Pøi vıraznìjším nárùstu HDP, dochází i k nárùstu vıše prùmìrnıch mezd a to buï ji v aktuálním roce, jako tomu bylo v letech 2007 a 2017 anebo v roce následujícím, jak tomu bylo v letech 2015 - 2016. Vazba mezi HDP a cenou nebyla detekována.
 
+Repozitáø obsahuje textové odpovìdi na otázky v pøiloeném souboru, pro jednotlivé odpovìdi jsou v repozitáøi uloeny skripty, které jsou podkladem odpovìdí.
 
+Základem pro tvorbu odpovìdí jsou podkladové tabulky jejich skripty jsou takté obsahem repozitáøe.
 
 V primární tabulce chybí data s nulovım odvìtvím a takté tabulka neobsahuje data o cenách k nìkterım rokùm, nebo v tìchto letech nebyly ceny potravin pøedmìtem zkoumání.
