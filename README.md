@@ -13,9 +13,9 @@ Oproti tomu v posledním porovnatelném období, roku 2018, pøi prùmìrných mzdách 3
 Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006.
 
 # 3.
-Ve sledovaném období roky 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Rajská jablka èervená kulatá, ovšem nejedná se o rùst, nýbrž o pokles ceny.
+Ve sledovaném období let 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Cukr krystalový, ovšem nejedná se o rùst, nýbrž o pokles ceny, ponìvadž Cukr krystalový vykazuje prùmìrný meziroèní pokles ceny 1,92 % z jednotlivých meziroèní zmìn ceny za sledované období 2006-2018.
 
-Na základì meziroèního porovnání prùmìrných cen rajèat, za sledované období, došlo k poklesu ceny o 2,75%
+Z porovnávaných katergorií potravin vyjmuta kategorie Jakostní víno bíle, povìvadž obsahovala vzorek pouze tøí let, tudíž nesplòovala kompletní rozsah pro porovnání s ostatními potravinami a výsledky z této kategorie by nebyly validní k ostatním výsledkùm.
 
 # 4.
 V roce 2012 došlo k výraznìjšímu nárùstu cen oproti nárùstu mezd. Ceny v roce 2012 narostly o 12,07% více než mzdy.

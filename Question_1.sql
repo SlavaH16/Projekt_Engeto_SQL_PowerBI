@@ -19,7 +19,7 @@ SELECT DISTINCT
   ORDER BY industry_branch_name, payroll_year  ;
 
 
--- Výčet meziročních všech poklesů průměrných mezd v jednotlivých odvětvích, za sledované období --
+-- Výčet všech meziročních poklesů průměrných mezd v jednotlivých odvětvích, za sledované období --
 
 SELECT DISTINCT 
    tmh.industry_branch_name,
