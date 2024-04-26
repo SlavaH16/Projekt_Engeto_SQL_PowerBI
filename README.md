@@ -6,11 +6,11 @@ Mzdy meziroènì rostly v prùbìhu let, pro srovnání použit náhled na zmìny v prùmì
 V jednotlivých meziroèních srovnání prùmìrných mezd se vyskytl i pokles prùmìrných mezd, pro výstup z tìchto poklesù definovám podskript, který obsahuje náhled na meziroèní poklesy v rámci sledovaných období
 
 # 2.
-První porovnatelné období pro mzdy a ceny, je období roku 2006, kdy pøi prùmìrných roèních mzdách 20 754 Kè, bylo možné koupit 1 287 Kg Konzumního kmínového chleba pøi prùmìrné cenì 16,12 Kè za 1 kg chleba a 1 437 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 14,44 Kè za litr mléka. 
+První porovnatelné období pro mzdy a ceny, je období roku 2006, kdy pøi prùmìrných roèních mzdách 21 165 Kè, bylo možné koupit 1 313 Kg Konzumního kmínového chleba pøi prùmìrné cenì 16,12 Kè za 1 kg chleba a 1 466 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 14,44 Kè za litr mléka. 
 
-Oproti tomu v posledním porovnatelném období roku 2018, pøi prùmìrných mzdách 32 536 Kè bylo možné koupit 1 342 Kg Konzumního kmínového chleba, pøi prùmìrné cenì 24,24 Kè za 1 kg chleba a 1 642 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 19,82 Kè za litr mléka.
+Oproti tomu v posledním porovnatelném období, roku 2018, pøi prùmìrných mzdách 33 092 Kè bylo možné koupit 1 365 Kg Konzumního kmínového chleba, pøi prùmìrné cenì 24,24 Kè za 1 kg chleba a 1 670 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 19,82 Kè za litr mléka.
 
-Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006
+Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006.
 
 # 3.
 Ve sledovaném období roky 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Rajská jablka èervená kulatá, ovšem nejedná se o rùst, nýbrž o pokles ceny.

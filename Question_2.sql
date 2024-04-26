@@ -14,7 +14,7 @@ ORDER BY food_category, payroll_year ;
 
 
 
--- Detail, dle kategorií --
+-- Detail, dle odvětví --
 
 SELECT
 	payroll_year,
