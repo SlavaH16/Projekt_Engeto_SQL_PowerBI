@@ -1,21 +1,21 @@
 # Repozirat k projektu
 
 # 1. 
-Mzdy meziroènì rostly v prùbìhu let, pro srovnání použit náhled na zmìny v prùmìrných mzdách rok po roce, další náhled poskytuje prùøez dat v cyklech po 5-ti letech, tedy porovnání prùmìrné mzdy vždy po 5-ti letech. 
+Prùmìrné mzdy v prùbìhu let rostly, pro srovnání použit náhled na zmìny v prùmìrných mzdách rok po roce, další náhled poskytuje prùøez dat v cyklech po 5-ti letech, tedy porovnání prùmìrné mzdy vždy po 5-ti letech. 
 
-V jednotlivých meziroèních srovnání prùmìrných mezd se vyskytl i pokles prùmìrných mezd, pro výstup z tìchto poklesù definovám podskript, který obsahuje náhled na meziroèní poklesy v rámci sledovaných období
+Pøes celkový rùst mezd v èase se v jednotlivých meziroèních srovnání prùmìrných mezd vyskytl i meziroèní pokles prùmìrných mezd, pro výstup z tìchto poklesù definovám podskript, který obsahuje náhled na meziroèní poklesy v rámci sledovaných období, dle porovnávaných let a odvìtví
 
 # 2.
-První porovnatelné období pro mzdy a ceny, je období roku 2006, kdy pøi prùmìrných roèních mzdách 21 165 Kè, bylo možné koupit 1 313 Kg Konzumního kmínového chleba pøi prùmìrné cenì 16,12 Kè za 1 kg chleba a 1 466 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 14,44 Kè za litr mléka. 
+První porovnatelné období pro mzdy a ceny, je období roku 2006, kdy pøi prùmìrných roèních mzdách 20 754 Kè, bylo možné koupit 1 287 Kg Konzumního kmínového chleba pøi prùmìrné cenì 16,12 Kè za 1 kg chleba a 1 437 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 14,44 Kè za litr mléka. 
 
-Oproti tomu v posledním porovnatelném období, roku 2018, pøi prùmìrných mzdách 33 092 Kè bylo možné koupit 1 365 Kg Konzumního kmínového chleba, pøi prùmìrné cenì 24,24 Kè za 1 kg chleba a 1 670 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 19,82 Kè za litr mléka.
+Oproti tomu v posledním porovnatelném období, roku 2018, pøi prùmìrných mzdách 32 536 Kè bylo možné koupit 1 342 Kg Konzumního kmínového chleba, pøi prùmìrné cenì 24,24 Kè za 1 kg chleba a 1 642 litrù Polotuèného pasterovaného mléka pøi prùmìrné cenì 19,82 Kè za litr mléka.
 
-Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006.
+Lze tedy øíci, že v porovnávaných obdobích, rostly mzdy rychleji než ceny potravin, ponìvadž v roce 2018 bylo možné za prùmìrnou mzdu nakoupit více kg chleba a litrù mléka, než v roce 2006.
 
 # 3.
-Ve sledovaném období let 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Cukr krystalový, ovšem nejedná se o rùst, nýbrž o pokles ceny, ponìvadž Cukr krystalový vykazuje prùmìrný meziroèní pokles ceny 1,92 % z jednotlivých meziroèní zmìn ceny za sledované období 2006-2018.
+Ve sledovaném období let 2006-2018 nejpomalejší "rùst" ceny dosahuje kategorie potravin Cukr krystalový, ovšem nejedná se o rùst, nýbrž o pokles ceny, ponìvadž Cukr krystalový vykazuje prùmìrný meziroèní pokles ceny 1,92 % ze všech percentuálních meziroèní zmìn ceny za sledované období 2006-2018.
 
-Z porovnávaných katergorií potravin vyjmuta kategorie Jakostní víno bíle, povìvadž obsahovala vzorek pouze tøí let, tudíž nesplòovala kompletní rozsah pro porovnání s ostatními potravinami a výsledky z této kategorie by nebyly validní k ostatním výsledkùm.
+Z porovnávaných katergorií potravin vyjmuta kategorie Jakostní víno bíle, povìvadž obsahovala vzorek pouze tøí let, tudíž nesplòovala kompletní rozsah období pro porovnání s ostatními potravinami a výsledky z této kategorie by nebyly validní k ostatním výsledkùm.
 
 # 4.
 V roce 2012 došlo k výraznìjšímu nárùstu cen oproti nárùstu mezd. Ceny v roce 2012 narostly o 12,07% více než mzdy.
