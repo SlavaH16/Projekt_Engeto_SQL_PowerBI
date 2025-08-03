@@ -1,25 +1,26 @@
 # Repozirat k  SQL projektu
 
-# Organizace repozitáøe
+# Organizace repozitÃ¡Å™e
+PrvotnÄ› uloÅ¾en souboru k POWER BI projektu, veÅ¡kerÃ½ nÃ¡sledujÃ­cÃ­ obsah repozitÃ¡Å™e se vztahuje k projektu SQL, viz. nÃ­Å¾e.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V repozitÃ¡Å™i uloÅ¾en soubor Pruvodni_listina.pdf, kterÃ½ obsahuje textovÃ© odpovÄ›di na jednotlivÃ© otÃ¡zky ze zadÃ¡nÃ­ projektu.
 
-V repozitáøi uloen soubor Pruvodni_listina.pdf, kterı obsahuje textové odpovìdi na jednotlivé otázky ze zadání projektu.
+PodkladovÃ© skripty pro odpovÄ›di na otÃ¡zky uloÅ¾eny jako Question_1-5.sql
 
-Podkladové skripty pro odpovìdi na otázky uloeny jako Question_1-5.sql
+ZÃ¡kladem pro tvorbu odpovÄ›dÃ­ jsou podkladovÃ© tabulky jejichÅ¾ skripty jsou uloÅ¾eny pod nÃ¡zvy Script_table1.sql a Script_table2.sql
 
-Základem pro tvorbu odpovìdí jsou podkladové tabulky jejich skripty jsou uloeny pod názvy Script_table1.sql a Script_table2.sql
+DÃ¡le uloÅ¾eny skripty k novÄ› vytvoÅ™enÃ½m doprovodnÃ½m tabulkÃ¡m projektu a to price_with_category.sql a czechia_gdp.sql
 
-Dále uloeny skripty k novì vytvoøenım doprovodnım tabulkám projektu a to price_with_category.sql a czechia_gdp.sql
+# ChybÄ›jÃ­cÃ­ data a doplÅˆujÃ­cÃ­ informace
 
-# Chybìjící data a doplòující informace
+PÅ™i zpracovÃ¡nÃ­ projektu detekovÃ¡ny chybÄ›jÃ­cÃ­ data v primÃ¡rnÃ­ch tabulkÃ¡ch, kterÃ© slouÅ¾ily jako podklad pro tvorbu vÃ½chozÃ­ch tabulek k projektu, upÅ™esnÄ›nÃ­ pouÅ¾itÃ½ch dat uvÃ¡dÃ­me nÃ­Å¾e:
 
-Pøi zpracování projektu detekovány chybìjící data v primárních tabulkách, které slouily jako podklad pro tvorbu vıchozích tabulek k projektu, upøesnìní pouitıch dat uvádíme níe:
+- pÅ™i vÃ½poÄtu prÅ¯mÄ›rnÃ½ch mezd, pracovÃ¡no jak s hodnotami pro fyzickÃ© osoby, tak s hodnotami o prÅ¯mÄ›rnÃ½ch mzdÃ¡ch pro plnÃ© Ãºvazky
 
-- pøi vıpoètu prùmìrnıch mezd, pracováno jak s hodnotami pro fyzické osoby, tak s hodnotami o prùmìrnıch mzdách pro plné úvazky
+- v primÃ¡rnÃ­ tabulce nebyla specifikovÃ¡na vÅ¡echna odvÄ›tvÃ­ k prÅ¯mÄ›rnÃ½m mzdÃ¡m, tedy tabulka obsahovala nulovÃ¡ data ve sloupci odvÄ›tvÃ­, tudÃ­Å¾ tyto data nebyla zahrnuta do vÃ½chozÃ­ tabulky k projektu
 
-- v primární tabulce nebyla specifikována všechna odvìtví k prùmìrnım mzdám, tedy tabulka obsahovala nulová data ve sloupci odvìtví, tudí tyto data nebyla zahrnuta do vıchozí tabulky k projektu
+- v primÃ¡rnÃ­ch tabulkÃ¡ch byl detekovÃ¡n jinÃ½ rozsah obdobÃ­ u prÅ¯mÄ›rnÃ½ch mezd a cen, kdy prÅ¯zkum cen potravin byl kratÅ¡Ã­, neÅ¾ prÅ¯zkum prÅ¯mÄ›rnÃ½ch mezd, tudÃ­Å¾ vÃ½chozÃ­ tabulka k projektu obsahuje nulovÃ¡ data k cenÃ¡m potravin za roky 2000 - 2005 a 2019 - 2021. 
 
-- v primárních tabulkách byl detekován jinı rozsah období u prùmìrnıch mezd a cen, kdy prùzkum cen potravin byl kratší, ne prùzkum prùmìrnıch mezd, tudí vıchozí tabulka k projektu obsahuje nulová data k cenám potravin za roky 2000 - 2005 a 2019 - 2021. 
+- byÅ¥ data za roky 2000 - 2005 a 2019 - 2021 o prÅ¯mÄ›rnÃ½ch mzdÃ¡ch nelze porovnÃ¡vat s cenami potravin, pÅ™esto byly zahrnuty do vÃ½chozÃ­ tabulky, neboÅ¥ slouÅ¾ily jako podklad pro prvnÃ­ otÃ¡zku projektu a bylo moÅ¾nÃ© pouÅ¾Ã­t pro srovnÃ¡nÃ­ delÅ¡Ã­ Äasovou Å™adu
 
-- by data za roky 2000 - 2005 a 2019 - 2021 o prùmìrnıch mzdách nelze porovnávat s cenami potravin, pøesto byly zahrnuty do vıchozí tabulky, nebo slouily jako podklad pro první otázku projektu a bylo moné pouít pro srovnání delší èasovou øadu
-
-- informace o cenách druhu potravin - Jakostní víno bílé, byly poskytnuty pouze za 3 roky, tudí tento druh potravin byl vyjmut z porovnání v otázce 3, nebo by vısledky porovnání nebyly validní
+- informace o cenÃ¡ch druhu potravin - JakostnÃ­ vÃ­no bÃ­lÃ©, byly poskytnuty pouze za 3 roky, tudÃ­Å¾ tento druh potravin byl vyjmut z porovnÃ¡nÃ­ v otÃ¡zce 3, neboÅ¥ by vÃ½sledky porovnÃ¡nÃ­ nebyly validnÃ­
