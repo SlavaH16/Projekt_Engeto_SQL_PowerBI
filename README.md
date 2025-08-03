@@ -1,8 +1,11 @@
 # Repozirat k  SQL projektu
 
-# Organizace repozitáře
+
 Prvotně uložen souboru k POWER BI projektu, veškerý následující obsah repozitáře se vztahuje k projektu SQL, viz. níže.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Organizace repozitáře
+
 V repozitáři uložen soubor Pruvodni_listina.pdf, který obsahuje textové odpovědi na jednotlivé otázky ze zadání projektu.
 
 Podkladové skripty pro odpovědi na otázky uloženy jako Question_1-5.sql
