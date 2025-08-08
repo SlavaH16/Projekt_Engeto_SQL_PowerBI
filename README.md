@@ -1,7 +1,7 @@
 # Repozirat k  SQL projektu
 
 
-Prvotně uložen souboru k POWER BI projektu, veškerý následující obsah repozitáře se vztahuje k projektu SQL, viz. níže.
+Prvotně uložen soubor k POWER BI projektu, veškerý následující obsah repozitáře se vztahuje k projektu SQL, viz. níže.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Organizace repozitáře
